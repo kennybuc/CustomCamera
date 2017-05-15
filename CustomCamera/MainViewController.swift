@@ -9,6 +9,10 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    @IBOutlet weak var viewContainer: UIView!
+    @IBOutlet weak var ivCruiseFrame: UIImageView!
+    @IBOutlet weak var btnSave: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +25,12 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func didTapCaptureButton(_ sender: UIButton) {
+        
+    }
+    
+    @IBAction func didTapSaveButton(_ sender: UIButton) {
+        
+    }
+    
 }

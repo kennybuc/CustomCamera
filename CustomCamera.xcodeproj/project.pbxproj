@@ -14,6 +14,8 @@
 		097541CE1EC948D50099589E /* CustomCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097541CD1EC948D50099589E /* CustomCameraTests.swift */; };
 		097541D91EC948D50099589E /* CustomCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097541D81EC948D50099589E /* CustomCameraUITests.swift */; };
 		097541E81EC949330099589E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097541E71EC949330099589E /* MainViewController.swift */; };
+		097541EB1EC94DDD0099589E /* img_hard_hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 097541EA1EC94DDD0099589E /* img_hard_hat.png */; };
+		097541ED1EC94F4F0099589E /* ic_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 097541EC1EC94F4F0099589E /* ic_camera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		097541D81EC948D50099589E /* CustomCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraUITests.swift; sourceTree = "<group>"; };
 		097541DA1EC948D50099589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		097541E71EC949330099589E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		097541EA1EC94DDD0099589E /* img_hard_hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hard_hat.png; sourceTree = "<group>"; };
+		097541EC1EC94F4F0099589E /* ic_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_camera.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,12 +129,22 @@
 		097541E61EC949050099589E /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				097541E91EC94A580099589E /* Images */,
 				097541BC1EC948D50099589E /* Main.storyboard */,
 				097541BF1EC948D50099589E /* Assets.xcassets */,
 				097541C11EC948D50099589E /* LaunchScreen.storyboard */,
 				097541C41EC948D50099589E /* Info.plist */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		097541E91EC94A580099589E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				097541EC1EC94F4F0099589E /* ic_camera.png */,
+				097541EA1EC94DDD0099589E /* img_hard_hat.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +257,8 @@
 			files = (
 				097541C31EC948D50099589E /* LaunchScreen.storyboard in Resources */,
 				097541C01EC948D50099589E /* Assets.xcassets in Resources */,
+				097541ED1EC94F4F0099589E /* ic_camera.png in Resources */,
+				097541EB1EC94DDD0099589E /* img_hard_hat.png in Resources */,
 				097541BE1EC948D50099589E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +537,7 @@
 				097541DF1EC948D50099589E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		097541E01EC948D50099589E /* Build configuration list for PBXNativeTarget "CustomCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +546,7 @@
 				097541E21EC948D50099589E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		097541E31EC948D50099589E /* Build configuration list for PBXNativeTarget "CustomCameraUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +555,7 @@
 				097541E51EC948D50099589E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
