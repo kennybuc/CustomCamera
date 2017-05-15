@@ -197,7 +197,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = admin_user;
+				ORGANIZATIONNAME = GMService;
 				TargetAttributes = {
 					097541B41EC948D50099589E = {
 						CreatedOnToolsVersion = 8.3.2;
